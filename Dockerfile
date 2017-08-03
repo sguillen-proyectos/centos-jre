@@ -3,9 +3,9 @@ FROM centos:6
 MAINTAINER donkeysharp <serguimant@gmail.com>
 
 ENV JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=121 \
-    JAVA_VERSION_BUILD=13 \
-    JAVA_URL_HASH=e9e7ea248e2c4826b92b3f075a80e441 
+    JAVA_VERSION_MINOR=144 \
+    JAVA_VERSION_BUILD=01 \
+    JAVA_URL_HASH=090f390dda5b47b9b721c7dfaa008135
 
 RUN yum update -y && \
 yum install -y wget && \
